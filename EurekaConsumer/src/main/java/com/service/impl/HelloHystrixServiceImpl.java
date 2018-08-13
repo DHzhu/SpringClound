@@ -11,7 +11,7 @@ public class HelloHystrixServiceImpl implements HelloService{
 	@Override
 	public String hello(@RequestParam(value = "name") String name) {
 		// TODO Auto-generated method stub
-		return "hello" +name+", this messge send failed ";
+		return "hello " +name+", this messge send failed ";
 	}
 
 }
