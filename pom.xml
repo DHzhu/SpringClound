@@ -16,8 +16,9 @@
 		<module>EurekaConsumer</module>
 		<module>ConfigServer</module>
     	<module>ConfigClient</module>
-    	<module>ZuulServer</module>	
-  </modules>
+    	<module>ZuulServer</module>
+    	<module>ZipkinServer</module>
+  	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
