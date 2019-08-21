@@ -2,10 +2,9 @@
 <Configuration status="INFO" monitorInterval="300">
 	
 	<properties> 
-		<property name="logDir" value="D:/weblogs/ConfigServer" />
+		<property name="logDir" value="D:/weblogs/Eureka" />
 		<property name="logLevel" value="INFO" />
-		<!-- <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] %msg%n" /> -->
-		<property name="pattern" value="%d{HH:mm:ss} %-5level [%class:%line] %msg%n" />
+		<property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] %msg%n" />
 	</properties>
 
 	<Appenders>
