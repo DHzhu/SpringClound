@@ -11,7 +11,6 @@ import zipkin2.server.internal.EnableZipkinServer;
 
 
 
-
 @SpringBootApplication
 @EnableConfigurationProperties
 @EnableDiscoveryClient
